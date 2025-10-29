@@ -20,10 +20,11 @@ h1 {
 h1 > span,
 h1 > a {
   display: inline-block;
+  line-height: 1.5;
 }
 h1 .sub {
   display: block;
-  font-size: 0.85em;
+  font-size: 0.95em;
 }
 
 h2 {
@@ -49,6 +50,10 @@ footer ul {
 
 footer li {
   list-style: none;
+}
+
+.back-to-home {
+  height: 1.5rem;
 }
 
 .back-to-home a::before {
